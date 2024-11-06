@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+header {
+    background-color: beige;
+    min-height: 200px;
+    text-align: center;
+}
+
+footer {
+    background-color: beige min-height: 100px;
+    padding: 10px 50px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.about {
+    background-color: rgb(236, 186, 109);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+
+.articles {
+    background-color: rgb(221, 180, 119);
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+html {
+    font-size: 1.2em;
+    font-family: "Rubik Mono One", monospace;
+}
+
+.menu-item {
+    display: inline-block;
+    margin: 5px 10 px;
+}
+
+.content {
+    padding: 10px 50px;
+}
+
+blockquote {
+    font-size: 30px;
+    background-color: antiquewhite;
+}
+
+p {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 40px;
+    color: red;
+    text-align: center;
+}
+
+img {
+    outline: 3px solid #a71b61;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px 2px rgba(100, 33, 224, 0.733);
+}
+
+li {
+    font-size: 40px;
+}
+
+strong {
+    color: red;
+    font-size: 30px;
+}
+
+.info li:nth-child(4) {
+    background-color: rgba(255, 255, 255, 0.123);
+}
+
+dt {
+    font-size: 30px;
+    color: red;
+}
+
+dd {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 40px;
+    color: red
+}
+
+.dates {
+    border: 5px solid rgb(150, 150, 150);
+    border-collapse: collapse;
+}
+
+.dates td,
+.dates th {
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.dates tr:nth-child(odd) {
+    background-color: beige;
+    font-style: italic;
+}
+
+.dates td:nth-child(3) {
+    text-align: center;
+}
+
+#example-form {
+    margin: 10px auto;
+    max-width: 300px;
+}
+
+input {
+    padding: 10px 20px;
+    background-color: #d8f0ff;
+    border: 1px solid beige;
+    color: rgb(150, 150, 150);
+    border-radius: 5px;
+}
+
+/* input[type=password]:hover,
+input */
+/* a[href^="#"] {
+    font-size: 36px;
+}*/
+
+
+/* 2 задание */
+a {
+    /* 1 */
+    font-size: 40px;
+    color: red;
+}
+
+a:active {
+    color: red
+}
+
+a:visited {
+    color: red
+}
+
+a:hover,
+a:focus {
+    color: red
+}
+
+a:link {
+
+    color: red nav ul li a:focus,
+    nav ul li a:hover {
+        /* 2 */
+        background-color: antiquewhite;
+        color: red;
+
+        /* 3 оформление ссылок в разделе информация */
+        .info a:hover,
+        .info a:focus {
+            color: red;
+        }
+
+        .info li:nth-child(odd) {
+            /* 4 */
+            background-color: beige;
+        }
+
+        #termins:before {
+            /* 5 */
+            content: "Важно!";
+            background-color: rgb(55, 40, 255);
+            color: red;
+            padding: 5px;
+        }
+
+        p::first-line {
+            /* 6 */
+            letter-spacing: 3px;
+        }
+
+        p:lang(en) {
+            /* 7 */
+            font-style: italic;
+            font-size: 50px;
+            background-color: #46f700;
+        }
+
+        #russian {
+            /* 7 */
+            font-size: 50px;
+            background-color: #f70000;
+            color: black;
+        }
+
+        .vvedenie li {
+            /* 8 */
+            font-size: 40px;
+            color: #341246;
+        }
+
+        footer img {
+            /* 9 */
+            border: 8px solid blue;
+            border-radius: 50%;
+        }
+
+        img+p {
+            /* 10 */
+            margin-top: 50px;
+        }
+
+        /* 2.1 */
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-family: 'Lobster', sans-serif;
+        }
+
+        p {
+            font-family: 'El Messiri', sans-serif;
+            ;
+        }
+
+        /* 2.2 */
+        p {
+            font-size: 35px;
+            line-height: 1.5;
+            color: red;
+        }
+
+        h1 {
+            text-decoration: overline;
+            font-style: italic;
+            text-transform: uppercase;
+            font-weight: 100;
+        }
+
+        h2 {
+            text-decoration: underline;
+            text-transform: none;
+            font-weight: 300;
+        }
+
+        h3 {
+            text-decoration: underline;
+            font-style: italic;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        #topic {
+            margin: 10px auto;
+            max-width: 300px;
+            padding: 10px 20px;
+            background-color: rgb(144, 151, 250);
+            border: 1px solid darkblue;
+            color: darkblue;
+            border-radius: 5px;
+            width: 230px;
+        }
+
+        label {
+            font-size: 20px;
+            color: rgb(248, 232, 232);
+        }
+
+        #fdbck {
+            padding: 30px 40px;
+            background-color: rgb(144, 151, 250);
+            border: 1px solid darkblue;
+            color: darkblue;
+            border-radius: 10px;
+            height: 90px;
+            width: 150px;
+        }
+
+        #gender {
+            font-size: 30px;
+            color: rgb(248, 232, 232);
+        }
+
+        #male,
+        #female {
+            color: deeppink;
+        }
+
+        #submitButton {
+            color: rgb(75, 1, 109);
+            font-size: 30px;
+            font-style: italic;
+            height: 50px;
+            width: 200px;
+            padding: 5px;
+            margin-bottom: 10px;
+            border: rgb(54, 95, 209) solid 100 px;
+            background-color: #0097fca6;
+        }
+
+        #submitButton:hover {
+            background-color: #d8f0ff;
+        }
+
+        #name,
+        #mail1,
+        #bday,
+        #telephone {
+            background-color: rgb(144, 151, 250);
+            height: 25px;
+            width: 190px;
+        }
+
+        input::placeholder {
+            font-weight: bold;
+            opacity: 0.5;
+            color: red;
+        }
+
+        textarea::placeholder {
+            font-weight: bold;
+            opacity: 0.5;
+            color: red;
+        }
